@@ -1,0 +1,337 @@
+/*#include <iostream>
+#define pi 3;
+using namespace std*/;
+//void main() {
+	//cout << "\a " << endl;
+//
+//(Sadə ədədlər yalnız özünə və 1 - ə bölünən ədədlərdi * /
+	/*
+}
+
+//
+//	cout << "Salam qaqash kalkuliatra xos geldun \n";
+//	cout << "DEmeli qaqash 4 dene emeliat vardana\n";
+//	cout << "1.cem" << endl;
+//	cout << "2.ferq" << endl;
+//	cout << "3.hasil" << endl;
+//	cout << "4.bolme" << endl;
+//	int a, b;
+//	cout << "a ";
+//	cin >> a;
+//
+//	cout << "B ";
+//	cin >> b;
+//
+//	char secim;
+//	cout << "emeliyyati deyin ";
+//	cin >> secim;
+//
+//	if (secim == '+') {
+//		cout << a + b;
+//	}
+//	else if (secim == '-') {
+//		cout << a - b;
+//
+//	}
+//	else if (secim == '*') {
+//		cout << a * b;
+//
+//	}
+//	else if (secim == '/') {
+//		cout << a / b;
+//	}
+//	else {
+//		cout << "sehvdiqaqa0";
+//	}
+//}
+
+	/*
+	char a = 229;
+	cout << a;*/
+	//cout << sizeof(short int) << endl;
+	//
+	//int a, b;
+	//a = 7;
+	//b = 2;
+	////b = a;
+	//cout << "a+b " << a <<endl;
+
+	//int a;
+	//int b = 4;
+	//a = 9;
+	//bool c = a > b;
+
+
+	//operators
+	// 
+	//cout << ++a<<endl;
+	//cout << c ;
+	/*int a, b;
+	bool c;
+	a = 9;
+	cout << "b";
+	cin >> b ;
+	c = a <= b;
+	cout << c ;
+*/
+	/*bool res; 
+	int a, b; 
+	cout << "a ";
+	cin >> a ;
+	cout << "b ";
+	cin >> b;
+	res = a == b;
+	cout << "a is must be equeal to b " << res ;*/
+	
+
+
+	//İstifadəçi kq daxil edir, Kilogramı Gallona çevirən proqram yazın.
+
+	//float kq = 0;
+	//cout << "kq ";
+	//cin >> kq;
+	////gal = 3.79 * kq 
+	//cout << kq << " kq " << kq * 3.79 << "gallondur" << endl;
+
+
+
+ //2. İstifadəçi konsertin biletinin qiymətini və//konsertə gedəcək böyüklərin və uşaqların
+	//(ayrı - ayrı) sayını daxil edir.Ümumi xərclənəcək məbləği ekrana çıxarın. (Uşaqlara bilet 40faiz ucuzdur)
+	/*
+	int boyuk = 0;
+	cout << "Boyuk ";
+	cin >> boyuk;
+
+	float usaq = 0;
+	cout << "Usaq ";
+	cin >> usaq;
+
+	int qiymet = 0;
+	cout << "Biletin qiymeti ";
+	cin >> qiymet;
+	int a = boyuk * qiymet;
+	int b = a * 0.6;
+	cout << "Meblegg " << a + b << endl;*/
+
+
+	/*  3. İstifadəçi banka qoyacağı pulu və İLLİK üzərinə gəlinəcək faizi daxil edir.
+		  Ekrana faizdən AYLIQ gələcək gəliri hesablayan proqram yazın.
+		  (Məsələn, 1000 manat və 10 faizdirsə, bir il sonra 1100 manat olacaq)*/
+
+		  //int pul = 0;
+		  //cout << "Sermaye ";
+		  //cin >> pul;
+
+		  //float faiz = 0;
+		  //cout << "Illik faiz ";
+		  //cin >> faiz;
+
+		  //int muddet = 0;
+		  //cout << "Yatirimin muddeti ";
+		  //cin >> muddet;
+
+
+		  //int yatirim = (pul * faiz / 100 + pul) * muddet;
+
+		  //cout << muddet << "il sonra pul " << yatirim << " manat Olacaq"<< endl;
+
+	  //
+//4İstifadəçi klaviaturadan məsafəni, hər 100 km - ə benzin sərfiyyatını və üç növ benizinin qiymətini daxil edir.
+//Benzinin müxtəlif növləri üçün gedişin müqayisəli qiymətlər cədvəlini ekrana çıxarın.  (A - 92, A - 95, Premium
+	/*
+	int  distance = 0;
+	cout << "distance ";
+	cin >> distance;
+
+	int consumption = 0;
+	cout << "consumption for 100 km ";
+	cin >> consumption;
+
+	int a92 = 0;
+	cout << "price for a92 ";
+	cin >> a92;
+
+
+
+	int a95 = 0;
+	cout << "price for a92 ";
+	cin >> a95;
+
+
+
+	int premium = 0;
+	cout << "PRICE for premium ";
+	cin >> premium;
+	cout << "|                    | |      |" << endl;
+	cout << "|                    | |      |" << endl;
+	cout << "|consumption with a92|" << consumption * distance * a92 <<"|manat |" << endl;
+	cout << "|                    | |      |" << endl;
+	cout << "|                    | |      |" << endl;
+	cout << "consumption with a95 " << consumption * distance * a95 << " manat  |" << endl;
+	cout << "|                    | |      |" << endl;
+	cout << "|                    | |      |" << endl;
+	cout << "|consumption with premium is  "<< consumption * distance * premium <<" manat  " << endl;
+*/
+
+
+
+//
+//
+//5. Otağın eni, uzunluğu, hündürlüyü daxil edilir.Ekrana bu otağın divarlarını boyamaq üçün nə qədər rəng gedəcəyini
+//hesablayan  proqram yazmaq lazımdır. 
+//1 m2 divar üçün 0.5 litr rəng gedir və divarların 20faizi pəncərə və qapıdır.
+	//float high = 0;
+	//cout << "High ";
+	//cin >> high;
+
+	//float length = 0;
+	//cout << "length ";
+	//cin >> length;
+
+	//float wide = 0;
+	//cout << "wide ";
+	//cin >> wide;
+	//const float reng = 0.5;  //for 1 m2 
+
+	//cout << "Color for room is " << high * wide * length * 0.5 * 0.8 << " Litr " << endl;
+//
+//İstifadəçi üçrəqəmli ədəd daxil edir.Bu ədədin hər bir rəqəmini ayrı ayrı ekrana çıxarın.
+//(məsələn. 315. Ekrana 3, 1, 5)
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*const int _a = 5;
+		const int _b = 13;
+		float $c = _b % _a;
+
+		cout << $c;*/
+		/*std::cout << " gel\n \n" << endl;
+		std::cout << "\tmiri" << endl;
+		std::cout << "\n\t\t resume" << endl;
+		std::cout << "eddd" << endl;*/
+
+		//int age = 10;
+		// age = 15;
+		//cout << "I am " << age << " years old" << endl;
+
+		/*int a = 0;
+		cout << "a: ";
+		cin >> a;
+
+		int b = 0;
+		cout << "b: ";
+		cin >> b;
+
+		std::cout << "Cem " << a + b << endl;
+		std::cout << "FErq " << a - b << endl;
+		std::cout << "Hasil " << a * b << endl;
+		std::cout << "Bolme " << a / b << endl;*/
+
+		/*float v = 0;
+		float s = 0;
+		cout << "v :";
+		cin >> v;
+
+
+
+		cout << "s:";
+		cin >> s;
+
+		cout << "gedilen yol " << s / v << "km";*/
+		/*int price = 0;
+		int usaq = 0;
+		int boyuk = 0;
+
+
+		cout << "Price: ";
+		cin >> price;
+
+		cout << "Usaq";
+		cin >> usaq;
+
+		cout << "Bouk" ;
+		cin >> boyuk;
+		cout << "Cem " << boyuk * price + usaq * price / 2;*/
+
+		//float a = 0;
+		//float b = 0;
+
+		//cout << "a:";
+		//cin >> a;
+
+		//cout << "b:";
+		//cin >> b;
+
+		//cout << "Kesr hisselerin cemi :" << (a - int(a)) + (b - int(b)) << endl;
+
+		//cout << "Tam hisselerin cemiii: |" << int(a) + int(b) << endl;
+
+
+
+		/*float a = 4.6 ;
+		int b = int(a);
+		cout << b
+			;*/
+			//int b = 5;
+			//cout << b++ << endl;
+			/*cout << b++ << endl;
+			cout << b<< endl;
+			cout << --b <<endl;
+			cout << b;*/
+
+			/*int a = 0;
+
+
+
+
+
+			cout << "A ";
+			cin >> a;
+
+
+
+
+
+			  a % 2 == 0 ? cout << "cut" :  cout <<"Tek" << endl ;
+			*/
+
+			//int a = 0;
+			//cout << "A";
+			//cin >> a;
+
+			//int b = 0;
+			//cout << "B";
+			//cin >> b;
+			//a > b ? cout << "a b den boyukdur" : cout << "b a dan boyukdur";
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
