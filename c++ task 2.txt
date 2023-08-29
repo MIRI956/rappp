@@ -1,0 +1,124 @@
+#include <iostream>
+using nampespaces std ;
+void main(){
+
+
+	//Task1 
+	/*int a = 0;
+	int b = 0;
+
+	cout << " a : ";
+	cin >> a;
+	cout << "b: ";
+	cin >> b;
+
+	cout << "Ededi orta: " << (a + b) / 2;*/
+
+	//Task2 
+
+	//ax= - b
+	//x = - b/a
+	/*double a = 0;
+	double b = 0;
+	cout << "a :";
+	cin >> a;
+
+	cout << "b:";
+	cin >> b;
+	cout << -b/a; */
+
+
+	//Task3
+	/*int a = 0;
+	cout << "Eded: ";
+	cin >> a;
+
+	cout << "Ededin kubu :" << a * a * a << endl;
+	*/
+	//Task 4
+	//S= vt + at**2/2
+	/*float v = 0;
+	float a = 0;
+	int t = 0;
+
+	cout << "V:";
+	cin >> v;
+
+	cout << "a:";
+	cin >> a;
+
+	cout << "t:";
+	cin >> t;
+
+	cout << "Gedilen yol " <<( (v * t) + a * (t *t) / 2);*/
+	//Task5 
+	/*const float dollar = 1.7;
+	cout<< "Dollarin mezennesi " << dollar << " $: " << endl;
+	int usd = 0;
+	cout << "Daxil edilen dollar :";
+	cin >> usd ;
+
+	cout<< usd << " dollar " << usd * dollar << "manatdir" << endl;
+
+	*/
+	////Task 6 
+	//const float mlkm = 1.609;
+	//float mil = 0;
+	//cout << "Mil:";
+	//cin >> mil;
+	//cout << mil << " Mil " << mil * mlkm << " km dir" << endl;
+	//
+	//tASK 7 
+	//v = km/t
+
+	/*double km = 0;
+	double t = 0;
+
+	cout << "Km ";
+	cin >> km;
+
+	cout << "t";
+	cin >> t;
+	cout << "Suret: " << km / t <<  " km/saat dir" << endl ;*/
+	//Task 8 
+	/*double n = 0;
+	double f = 0;
+
+	cout << "N";
+	cin >> n;
+
+	cout << " F";
+	cin >> f;
+
+	cout << "N ededinin f faizi " << (n * f) / 100 << " % dir" << endl;*/
+	
+
+	//Task 9 
+	//d = C/ pi 
+
+	//const float pi = 3.14 ;
+	//double C = 0;
+	//cout << "uzunlq :";
+	//cin >> C;
+
+	//cout << "Cevrenin diametri " << C / pi << " dir" << endl;
+
+	//Task 10 
+	//R0 = (R1*R2*R3)/((R1*R2)+ (R2*R3)+(R3*R1))
+	
+	/*double R1 = 0;
+	double R2 = 0;
+	double R3 = 0;
+	cout << "R1 ";
+	cin >> R1; 
+
+	cout << "R2 ";
+	cin >> R2;
+
+	cout << "R3 ";
+	cin >> R3 ;
+
+	cout << "R0 muqavimeti : " << (R1 * R2 * R3) / ((R1 * R2) + (R2 * R3) + (R3 * R1))  << endl;
+
+*/
+}
